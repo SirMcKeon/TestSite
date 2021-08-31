@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    column-span: 2;
+}
+
+h3 {
+    border-bottom: 2px solid black;
+}
+
+p {
+    display: block;
+}
+
+p+p {
+    text-indent: 1em;
+}
+
+p+h1, p+h2, p+h3, p+h4 {
+    margin-top: 25px;
+}
+
+.page {
+    padding: 25px 300px;
+    columns: 2;
+    column-fill: auto;
+    column-gap: 25px;
+    height: 800px;
+}
+
+.text-box {
+    margin-bottom: 1em;
+    background-color: #e1f0d4;
+    border: 0px black solid;
+    border-image: url(images/border2.png) 14 stretch;
+    border-width: 14px;
+    border-image-outset: 7px 14px;
+    box-shadow: 1px 4px 10px #888;
+    padding: 5px 10px;
+}
+
+.text-box h5 {
+    margin-bottom: .2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: .423cm;
+    font-weight: 900;
+}
+
+.text-box p {
+    font-size: .352cm;
+    line-height: 1.1em;
+}
+
+.quote-box {
+    margin-top: 10px;
+    background-color: beige;
+    border: 0px black solid;
+    border-image: url(images/border1.png) 14 stretch;
+    border-width: 14px;
+    border-image-outset: 12px 7px;
+    box-shadow: 0px 0px 4px beige;
+}
