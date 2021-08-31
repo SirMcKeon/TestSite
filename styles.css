@@ -83,9 +83,19 @@ body {
     margin-right: auto;
 }
 
-img {
+.jade {
+    margin-top: 100px;
+}
+
+.jade img {
     width: 50%;
     display: block;
     margin: auto;
-    margin-top: 200px;
+}
+
+.jade h1 {
+    display: block;
+    text-align: center;
+    font-size: 72px;
+    color: #fff;
 }
